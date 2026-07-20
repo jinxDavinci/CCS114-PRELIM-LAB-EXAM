@@ -1,1 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome CDN link for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
 
+<!-- ======================================================== -->
+<!-- FOR HEADER -->
+  <header>
+    <div class="header">
+      <div class="header_logo">
+        <h1>JV's</h1>
+      </div>
+      <div class = "stud_name">
+        <h2>Jhan Vincent E. Miraples</h2>
+        <h3 class = "section">2IT-A</h3>
+        <h3 class = "short_motto">Live better today—than yesterday.</h3>
+      </div>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#Skill">Skill</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- ======================================================== -->
+<!-- FOR HOME -->
+ <section class="Home" id="Home">
+    <div class="home-content">
+        <h1>Welcome to JV's Website!</h1>
+        <img src="profilePic.jpg" alt="Profile Picture" class="profile-img">
+        <h2>Hi, I'm Jhan Vincent E. Miraples</h2>
+        <p>
+            I'm a college student passionate about programming, web development,
+            and learning new technologies. I enjoy creating simple websites,
+            solving coding challenges, and continuously improving my skills.
+        </p>
+
+        <i class="fa fa-envelope"></i>   
+        <i class="fa fa-instagram"></i>  
+        <i class="fa fa-github"></i>   
+        
+    </div>
+</section>
+
+
+<!-- ======================================================== -->
+<!-- FOR ABOUT -->
+  <section class="About" id="About">
+    <h2>About Me</h2>
+    <p>
+        Hi! I'm <strong>Jhan Vincent E. Miraples</strong>, a college student passionate about
+        programming, web development, and learning new technologies.
+        In my free time, I enjoy coding, playing chess, and also playing guitar.
+    </p>
+
+    <div class="gallery1">
+
+        <figure class="gallery-item">
+            <img src="profilePic.jpg" alt="My Picture">
+            <figcaption>My Profile</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+            <img src="coding.jpg" alt="Coding">
+            <figcaption>Coding Projects</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+            <img src="chess.jpg" alt="Sport">
+            <figcaption>Sport</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+            <img src="guitar.jpg" alt="Guitar">
+            <figcaption>Hobby</figcaption>
+        </figure>
+
+    </div>
+</section>
+
+<!-- ======================================================== -->
+<!-- FOR GALLERY -->
+<section class="gallery" id="Gallery">
+
+  <h1>Gallery</h1>
+  <p>
+    Welcome to my gallery! Here, you'll find a collection of images that represent
+    my interests, hobbies, and experiences. From scenic landscapes to personal
+    moments, each image tells a story about who I am and what I enjoy. Feel free
+    to explore and get a glimpse into my world!
+  </p>
+  
+  <figure class="frame">
+    <img src="beach.jpg" alt="December 2025">
+    <figcaption class="caption"><span class="title">December 2025</span></figcaption>
+  </figure>
+
+  <figure class="frame">
+    <img src="abay.jpg" alt="Abay Dec 2025">
+    <figcaption class="caption"><span class="title">Abay Dec 2025</span></figcaption>
+  </figure>
+
+  <figure class="frame">
+    <img src="tomsworld.jpg" alt="December 2025">
+    <figcaption class="caption"><span class="title">December 2025</span></figcaption>
+  </figure>
+
+  <figure class="frame">
+    <img src="teddy.jpg" alt="Miniso">
+    <figcaption class="caption"><span class="title">Miniso Store</span></figcaption>
+  </figure>
+
+  <figure class="frame">
+    <img src="chessjersey.jpg" alt="My Chess Jersey">
+    <figcaption class="caption"><span class="title">My Chess Jersey</span></figcaption>
+  </figure>
+
+  <figure class="frame">
+    <img src="silhouette.jpg" alt="Reviewing">
+    <figcaption class="caption"><span class="title">Pitik ni Classmate</span></figcaption>
+  </figure>
+
+  <figure class="frame">
+    <img src="5yearsold.jpg" alt="Just a kid">
+    <figcaption class="caption"><span class="title">Kindergarten</span></figcaption>
+  </figure>
+
+  <figure class="frame">
+    <img src="playingguitar.jpg" alt="Playing Guitar">
+    <figcaption class="caption"><span class="title">Guitar</span></figcaption>
+  </figure>
+
+</section>
+
+<!-- ======================================================== -->
+<!-- FOR SKILLS -->
+<section class="Skill" id="Skill">
+  <h1>My Skills</h1>
+
+  <div class="skills_container">
+
+    <div class="skill_card">
+      <i class="fa fa-coffee skill_icon"></i>
+      <h3>Java</h3>
+      <p>Object-oriented programming used for building desktop and Android applications.</p>
+    </div>
+
+    <div class="skill_card">
+      <i class="fa fa-pencil-square-o skill_icon"></i>
+      <h3>Figma</h3>
+      <p>Designing UI/UX layouts, wireframes, and prototypes for web and mobile apps.</p>
+    </div>
+
+    <div class="skill_card">
+      <i class="fa fa-database skill_icon"></i>
+      <h3>MySQL</h3>
+      <p>Managing relational databases, writing queries, and structuring data efficiently.</p>
+    </div>
+
+    <div class="skill_card">
+      <i class="fa fa-puzzle-piece skill_icon"></i>
+      <h3>Problem Solving</h3>
+      <p>Breaking down complex issues and finding practical, logical solutions.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ======================================================== -->
+<!-- FOR CONTACT -->
+<section class="Contact" id="Contact">
+
+    <h1>Contact Me</h1>
+
+    <h2>Personal Information</h2>
+    <p>
+        My name is Jhan Vincent E. Miraples, and I am currently a university of Cabuyao student who is
+        passionate about programming and technology. I enjoy learning new
+        programming languages, building websites, and solving coding problems.
+        During my free time, I like playing chess, practicing guitar, and
+        exploring different areas of software development to improve my skills.
+    </p>
+
+    <h2>Educational Background</h2>
+    <p>
+        I am currently pursuing a college degree in Information Technology.
+        Throughout my studies, I have gained knowledge in programming languages
+        such as Java, as well as web development using HTML and CSS. I have
+        also learned the fundamentals of databases, problem-solving, and
+        software development, which have helped me build a strong foundation
+        for my future career.
+    </p>
+
+    <h2>Career Goal</h2>
+    <p>
+        My career goal is to become a successful software developer and
+        cybersecurity specialist. I aspire to create useful applications that
+        can improve people's daily lives while continuously learning new
+        technologies. I also hope to work with experienced professionals,
+        contribute to meaningful projects, and develop innovative solutions
+        that make a positive impact on society.
+    </p>
+
+    <form class="contact_form" action="#" method="POST">
+
+        <div class="form_group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+
+        <div class="form_group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form_group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+
+        <div class="form_group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</section>
+
+<!-- ======================================================== -->
+<!-- FOR FOOTER -->
+  <footer class="footer">
+  <div class="footer_info">
+    <p class="footer_name">Jhan</p>
+    <p class="footer_section">2IT-A</p>
+    <p class="footer_copyright">&copy; 2026 Jhan. All rights reserved.</p>
+  </div>
+
+  <div class="footer__social">
+    <a href="mailto:jhan@example.com" aria-label="Email">
+      <i class="fa fa-envelope"></i>  
+    </a>
+    <a href="#" aria-label="Instagram">
+      <i class="fa fa-instagram"></i>  
+    </a>
+    <a href="#" aria-label="GitHub">
+      <i class="fa fa-github"></i>  
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
